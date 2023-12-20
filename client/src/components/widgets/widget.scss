@@ -1,0 +1,39 @@
+.container {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    
+  .cardHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(135, 72, 183);
+
+  }
+
+  .widget {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex: 1;
+
+    .title {
+      font-weight: bold;
+      font-size: 16px;
+      color: rgb(160, 160, 160);
+    }
+    .text{
+        font-size: 20px;
+    }
+
+    .charac{
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+    
+  }
+  
+}

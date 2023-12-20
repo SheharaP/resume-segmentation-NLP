@@ -1,0 +1,73 @@
+$error: #f34646;
+
+.home {
+    display: flex;
+
+    .homeContainer {
+        flex: 6;
+        text-align: center;
+
+        .widgets {
+            display: flex;
+            padding: 20px;
+
+            .table{
+                table {
+                    width: 80%;
+                    border-collapse: collapse;
+                    margin-top: 20px;
+                    margin-bottom: 40px;
+    
+                    th, td {
+                        padding: 8px 12px;
+                        border: 1px solid #ddd;
+                        text-align: left;
+                    }
+    
+                    th {
+                        background-color: #f9fafb;
+                        color: black;
+                    }
+    
+                    tr:nth-child(even) {
+                        background-color: #fff;
+                    }
+                }
+            }
+
+            
+            
+            .btn-primary {
+                display: inline-block;
+                background: linear-gradient(to right, #5d52d9, #4fc5eb);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 20px;
+                cursor: pointer;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+              }
+              
+              .btn-primary:hover {
+                background: linear-gradient(to right, #5d52d9d0, #4fc4ebe1);
+                color: white;
+                border: none;
+              }
+              .error_msg {
+                width: 370px;
+                padding: 15px;
+                margin: 20px 0 0 60px;
+                font-size: 14px;
+                background-color: $error;
+                color: white;
+                border-radius: 5px;
+                text-align: center;
+              }
+            
+            .file-input {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+Please add your trained model inside output/model-best
+Create MongoDB database and create collections
+Add MongoDB URI to server code
+Set ENV variable to MongoDB username and password
